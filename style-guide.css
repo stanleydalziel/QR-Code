@@ -1,0 +1,60 @@
+/* 
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+ White: hsl (0, 0%, 100%)
+Light-gray: hsl (212, 45%, 89%)
+Grayish-blue: hsl(220, 15%, 55%)
+Dark-blue: hsl(218, 44%, 22%)
+
+- Font size (paragraph): 15px
+
+### Font
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+#Box {
+	background-color: white;
+	border: 15px solid white;
+	border-radius: 25px;
+	padding: 20px;
+	height: 400px;
+	width: 18%;
+	position: absolute;
+	left: 520px;
+	top: 100px;
+}
+
+body {
+	background-color: hsl(212, 45%, 89%);
+}
+
+.qr-code > img {
+	margin-top: -15px;
+	margin-left: -15px;
+	height: 250px;
+	width: 270px;
+	border-radius: 5px;
+}
+
+.upper-body > p{
+	text-align: center;
+	font-family: outfit;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	font-size: ;
+
+}
+
+.lower-body > p{
+	text-align: center;
+	color: hsl(220, 15%, 55%);
+}
+
+
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
